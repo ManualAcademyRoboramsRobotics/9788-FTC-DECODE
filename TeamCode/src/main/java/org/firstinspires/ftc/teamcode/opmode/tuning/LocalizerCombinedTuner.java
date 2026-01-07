@@ -9,7 +9,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.Pose2D;
 import org.firstinspires.ftc.teamcode.opmode.BaseOpMode;
 
 
-@Disabled
+//@Disabled
 @TeleOp(name = "Localizer Tuner")
 public class LocalizerCombinedTuner extends BaseOpMode {
     Pose2D DesiredPose;

@@ -8,7 +8,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 import org.firstinspires.ftc.teamcode.opmode.BaseOpMode;
 
-@Disabled
+//@Disabled
 @TeleOp(name = "Encoder Offset Debugger")
 public class EncoderOffsetDebugger extends BaseOpMode {
 

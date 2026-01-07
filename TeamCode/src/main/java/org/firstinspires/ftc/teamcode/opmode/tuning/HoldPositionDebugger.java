@@ -10,7 +10,7 @@ import org.firstinspires.ftc.teamcode.constants.DriveConstants;
 import org.firstinspires.ftc.teamcode.opmode.BaseOpMode;
 
 
-@Disabled
+//@Disabled
 @TeleOp(name = "Hold Position Debugger")
 public class HoldPositionDebugger extends BaseOpMode {
     Pose2D DesiredPose;
