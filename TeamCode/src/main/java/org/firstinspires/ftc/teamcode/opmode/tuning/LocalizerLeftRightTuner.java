@@ -10,7 +10,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.teamcode.opmode.BaseOpMode;
 
 
-//@Disabled
+@Disabled
 @TeleOp(name = "Left Right Tuner")
 public class LocalizerLeftRightTuner extends BaseOpMode {
     Pose2D DesiredPose;

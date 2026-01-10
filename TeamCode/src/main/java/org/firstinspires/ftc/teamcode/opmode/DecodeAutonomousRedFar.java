@@ -24,6 +24,7 @@ public class DecodeAutonomousRedFar extends BaseDecodeAutonomous {
         m_ArtifactLengthIN = 5.00;
         m_GateForwardDistanceIN = 0;
         m_launchVelocity = ControlConstants.FAR_LAUNCH_SPEED;
+        ControlConstants.CURRENT_ALLIANCE = ControlConstants.Alliance.RED;
 
         super.init();
     }
