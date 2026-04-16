@@ -14,9 +14,9 @@ public class DecodeAutonomousRedFar extends BaseDecodeAutonomous {
 
     @Override
     public void init() {
-        m_StartingPosition = new Pose2D(DistanceUnit.INCH, AutoConstants.FAR_START_X, AutoConstants.FAR_START_Y, AngleUnit.DEGREES, -AutoConstants.FAR_START_H);
+        m_StartingPosition = new Pose2D(DistanceUnit.INCH, AutoConstants.FAR_START_X, AutoConstants.FAR_START_Y, AngleUnit.DEGREES, AutoConstants.FAR_START_H);
 
-        m_LaunchPosition = new Pose2D(DistanceUnit.INCH, AutoConstants.FAR_LAUNCH_X, AutoConstants.FAR_LAUNCH_Y, AngleUnit.DEGREES, -AutoConstants.FAR_LAUNCH_H);
+        m_LaunchPosition = new Pose2D(DistanceUnit.INCH, AutoConstants.FAR_LAUNCH_X, AutoConstants.FAR_LAUNCH_Y, AngleUnit.DEGREES, AutoConstants.FAR_LAUNCH_H);
         m_Spike1Position = new Pose2D(DistanceUnit.INCH, AutoConstants.SPIKE_X, AutoConstants.SPIKE_3_Y, AngleUnit.DEGREES, 90);
         m_Spike2Position = new Pose2D(DistanceUnit.INCH, AutoConstants.SPIKE_X, AutoConstants.SPIKE_2_Y, AngleUnit.DEGREES, 90);
         m_Spike3Position = new Pose2D(DistanceUnit.INCH, AutoConstants.SPIKE_X, AutoConstants.SPIKE_1_Y, AngleUnit.DEGREES, 90);
